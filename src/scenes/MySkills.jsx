@@ -67,7 +67,10 @@ const MySkills = () => {
               <i class="devicon devicon-github-plain" aria-hidden="true"></i>
               <p>Github</p>
             </div>
-          
+            <div class="box-icon">
+              <i class="devicon-nextjs-original"></i>
+                <p>Next JS</p>
+            </div>
             {/* <div class="box-icon">
             <div class="container-img-i i-firebase">
                 <img src="./assets/icon-firebase.svg" alt="firebase icon" aria-hidden="true" />
