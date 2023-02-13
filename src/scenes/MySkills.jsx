@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import LineGradient from "../components/LineGradient";
 import useMediaQuery from "../hooks/useMediaQuery";
 
-const MySkills = () => {
+const MySkill = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
 
   return (
