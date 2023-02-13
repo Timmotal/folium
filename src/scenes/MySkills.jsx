@@ -1,4 +1,4 @@
-
+import { motion } from "framer-motion";
 
 const MySkills = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
