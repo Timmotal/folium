@@ -39,7 +39,10 @@ const MySkills = () => {
                     <img src="assets/skills-image.png" alt="skills" className="z-10" /> */}
 
           <div className="flex flex-row flex-wrap justify-center container-icon">
-          
+          <div class="box-icon">
+            <i class="devicon devicon-html5-plain" aria-hidden="true"></i>
+            <p>HTML5</p>
+          </div>
            
           
            
