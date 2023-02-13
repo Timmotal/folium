@@ -43,7 +43,10 @@ const MySkills = () => {
             <i class="devicon devicon-html5-plain" aria-hidden="true"></i>
             <p>HTML5</p>
           </div>
-           
+            <div className="box-icon">
+              <i class="devicon devicon-css3-plain" aria-hidden="true"></i>
+              <p>CSS3</p>
+            </div>
           
            
           
