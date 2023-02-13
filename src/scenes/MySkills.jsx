@@ -55,7 +55,10 @@ const MySkills = () => {
               <i class="devicon devicon-react-original" aria-hidden="true"></i>
               <p>React</p>
             </div>
-          
+            <div class="box-icon">
+              <i class="devicon devicon-git-plain" aria-hidden="true"></i>
+              <p>Git</p>
+            </div>
           
           
             {/* <div class="box-icon">
