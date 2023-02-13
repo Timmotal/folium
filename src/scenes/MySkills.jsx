@@ -63,7 +63,10 @@ const MySkills = () => {
             <i class="devicon-tailwindcss-plain"></i>
             <p>Tailwind CSS</p>
           </div>
-           
+            <div class="box-icon">
+              <i class="devicon devicon-github-plain" aria-hidden="true"></i>
+              <p>Github</p>
+            </div>
           
             {/* <div class="box-icon">
             <div class="container-img-i i-firebase">
