@@ -51,7 +51,10 @@ const MySkills = () => {
               <i class="fab fa-js" aria-hidden="true"></i>
               <p>JavaScript</p>
             </div>
-           
+            <div class="box-icon">
+              <i class="devicon devicon-react-original" aria-hidden="true"></i>
+              <p>React</p>
+            </div>
           
           
           
