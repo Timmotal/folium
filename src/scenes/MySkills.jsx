@@ -25,7 +25,7 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
+            Excited to delve into the unknown 
             atque aut quas.
           </p>
         </motion.div>
@@ -40,6 +40,22 @@ const MySkills = () => {
 
           <div className="flex flex-row flex-wrap justify-center container-icon">
           <div class="box-icon">
+              <i class="devicon devicon-react-original" aria-hidden="true"></i>
+              <p>React</p>
+            </div>
+            <div class="box-icon">
+              <i class="fab fa-js" aria-hidden="true"></i>
+              <p>JavaScript</p>
+            </div>
+            <div class="box-icon">
+              <i class="devicon-nextjs-original"></i>
+                <p>Next JS</p>
+            </div>
+            <div className="box-icon">
+            <i class="devicon-typescript-plain"></i>
+            <p>Typescript</p>
+            </div>
+          <div class="box-icon">
             <i class="devicon devicon-html5-plain" aria-hidden="true"></i>
             <p>HTML5</p>
           </div>
@@ -48,29 +64,19 @@ const MySkills = () => {
               <p>CSS3</p>
             </div>
             <div class="box-icon">
-              <i class="fab fa-js" aria-hidden="true"></i>
-              <p>JavaScript</p>
-            </div>
-            <div class="box-icon">
-              <i class="devicon devicon-react-original" aria-hidden="true"></i>
-              <p>React</p>
+            <i class="devicon-tailwindcss-plain"></i>
+            <p>Tailwind CSS</p>
             </div>
             <div class="box-icon">
               <i class="devicon devicon-git-plain" aria-hidden="true"></i>
               <p>Git</p>
             </div>
-            <div class="box-icon">
-            <i class="devicon-tailwindcss-plain"></i>
-            <p>Tailwind CSS</p>
-          </div>
+            
             <div class="box-icon">
               <i class="devicon devicon-github-plain" aria-hidden="true"></i>
               <p>Github</p>
             </div>
-            <div class="box-icon">
-              <i class="devicon-nextjs-original"></i>
-                <p>Next JS</p>
-            </div>
+            
             {/* <div class="box-icon">
             <div class="container-img-i i-firebase">
                 <img src="./assets/icon-firebase.svg" alt="firebase icon" aria-hidden="true" />
@@ -95,9 +101,7 @@ const MySkills = () => {
             {/* <div class="box-icon">
             <div class="container-img-i i-responsive"> */}
             {/* <!-- This icon by Freepik from "https://www.flaticon.com/" --> */}
-            <div className="box-icon">
-            <i class="devicon-typescript-plain"></i>
-            </div>
+            
             {/* </div>
             <p>Responsive Websites</p>
           </div> */}
@@ -134,9 +138,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-            qui error, totam culpa nostrum velit impedit nobis dicta obcaecati,
-            commodi ratione nemo rem?
+            I build Interactive Web Apps that runs across devices & platforms
           </p>
         </motion.div>
 
@@ -162,9 +164,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-            qui error, totam culpa nostrum velit impedit nobis dicta obcaecati,
-            commodi ratione nemo rem?
+          I am passionate about building excellent software that improves the lives of those around me.
           </p>
         </motion.div>
 
@@ -187,12 +187,10 @@ const MySkills = () => {
                 Imaginative
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-3/4 h-32 bg-gumbo absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-            qui error, totam culpa nostrum velit impedit nobis dicta obcaecati,
-            commodi ratione nemo rem?
+          I like to code things from scratch, and enjoy bringing ideas to life in the browser.
           </p>
         </motion.div>
       </div>
