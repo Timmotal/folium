@@ -61,8 +61,11 @@ const Landing = ({ setSelectedPage }) => {
                      approach each project with a sense of wonder and excitement
                      digital renaissance man
 
-                    
-                   
+                     I like to think that beauty and function are simply two sides of a coin. 
+                     That's why my designs are not only visually stunning, but also highly functional
+
+                     'Simplicity is the ultimate sophistication.' That's why my code is clean, efficient, and easy to understand. I believe that the best technology is simple and intuitive
+
                    
                     </p>
                 </motion.div>
