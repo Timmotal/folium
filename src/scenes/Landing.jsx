@@ -66,7 +66,8 @@ const Landing = ({ setSelectedPage }) => {
 
                      'Simplicity is the ultimate sophistication.' That's why my code is clean, efficient, and easy to understand. I believe that the best technology is simple and intuitive
 
-                   
+                      With a keen eye for detail and a passion for innovation, I create websites and apps that are works of art in their own right.
+
                     </p>
                 </motion.div>
 
