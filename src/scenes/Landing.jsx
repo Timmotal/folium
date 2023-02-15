@@ -57,7 +57,11 @@ const Landing = ({ setSelectedPage }) => {
                     A curiosity-driven Front-End Dev, excited to delve into the unknown
                     i think Front-End Development can be inspiring and charming 
 
-                     
+                     constantly exploring and innovating in the world of technology
+                     approach each project with a sense of wonder and excitement
+                     digital renaissance man
+
+                    
                    
                    
                     </p>
