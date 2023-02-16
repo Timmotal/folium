@@ -55,19 +55,7 @@ const Landing = ({ setSelectedPage }) => {
 
                     <p className="mt-10 mb-7 text-sm text-center md:text-start">
                     A curiosity-driven Front-End Dev, excited to delve into the unknown
-                    i think Front-End Development can be inspiring and charming 
-
-                     constantly exploring and innovating in the world of technology
-                     approach each project with a sense of wonder and excitement
-                     digital renaissance man
-
-                     I like to think that beauty and function are simply two sides of a coin. 
-                     That's why my designs are not only visually stunning, but also highly functional
-
-                     'Simplicity is the ultimate sophistication.' That's why my code is clean, efficient, and easy to understand. I believe that the best technology is simple and intuitive
-
-                      With a keen eye for detail and a passion for innovation, I create websites and apps that are works of art in their own right.
-
+                    i think Front-End Development can be functional and charming 
                     </p>
                 </motion.div>
 
