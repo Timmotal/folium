@@ -40,8 +40,11 @@ const Contact = () => {
                     <div className="flex md:justify-end my-5">
                         <LineGradient width="w-1/2"/>
                     </div>
-                    <p className="text-center-text-xl">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <p className="text-end text-xm mb-3">
+                        Have some talk that needs wings? <br />
+                        Want to see if we can develop awesome stuffs together? <br />
+                        You may drop them below<br />
+                        I'd love to hear from you. 
                     </p>
                     </div>
                 </motion.div>
@@ -59,7 +62,7 @@ const Contact = () => {
                         visible: { opacity: 1, y: 0 }
                     }}
                 >
-                    <img src="../assets/contact-image.jpeg" alt="contact" />
+                    <img className="rounded-xl" src="../assets/futuristic_typewriter.png" alt="contact" />
                 </motion.div>
 
                 <motion.div
@@ -133,7 +136,7 @@ const Contact = () => {
                         <button
                             type="submit" 
                             className="p-5 bg-yellow font-semibold text-deep-blue mt-5 hover:bg-red hover:text-white transition duration-500">
-                            SEND ME A MESSAGE
+                            SEND MESSAGE
                         </button>
                     </form>
                 </motion.div>

@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
 import LineGradient from "../components/LineGradient";
 import useMediaQuery from "../hooks/useMediaQuery";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons'
+
 
 const MySkills = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
@@ -25,9 +28,13 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-           aiming to be a digital renaissance i am constantly surfing
+           Aiming to be a Digital Renaissance. I am constantly surfing
            for the bests tools in the world of technology to help develop ideas into live web apps, 
-           <span className="text-blue"> some of my most used tools 👉</span>
+           {isAboveMediumScreens ? (
+           <span className="text-blue"> some of my popular tools 👉</span>
+           ) : (
+            <span className="text-blue"> some of my popular tools 👇</span>
+           )}
           </p>
           
         </motion.div>
@@ -132,16 +139,18 @@ const MySkills = () => {
         >
           <div className="relative h-32">
             <div className="z-10">
-              <p className="font-playfair font-semibold text-5xl">User-Experience</p>
+            <p className="font-playfair font-semibold text-5xl">
+            一
+            </p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                
+              User-Experience
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            I build Interactive Web Apps that runs across devices & platforms
-            delivering a responsive interfaces to ensure a seamless experience for all users.
+           Developing Web Apps that runs across devices & platforms & 
+           delivering a seamless experience for all users.
           </p>
         </motion.div>
 
@@ -159,16 +168,20 @@ const MySkills = () => {
         >
           <div className="relative h-32">
             <div className="z-10">
-              <p className="font-playfair font-semibold text-5xl">02</p>
+            <p className="font-playfair font-semibold text-5xl">
+            二
+            </p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Innovative
+                Value
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
+          <p className="font-playfair font-semibold text-5xl"></p>
           <p className="mt-5">
-          I am passionate about building excellent software that improves the lives of those around me.
-          Integrating modern frameworks to create robust and secure applications
+          Passionate about building superb software. 
+          Integrating modern languages & frameworks to help deliver value and enrich lives.
+          
           </p>
         </motion.div>
 
@@ -186,16 +199,16 @@ const MySkills = () => {
         >
           <div className="relative h-32">
             <div className="z-10">
-              <p className="font-playfair font-semibold text-5xl">03</p>
+            <p className="font-playfair font-semibold text-5xl">三</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Imaginative
+                Simple
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-gumbo absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-          I like to code things from scratch, and enjoy bringing ideas to life in the browser.
-          leveraging the power of javascript and other technologies to create friendly & simple UI for users
+          Enjoy bringing ideas to life in browsers.
+          Leveraging the powers of Javascript and other technologies to develop friendly & simple UI
           </p>
         </motion.div>
       </div>

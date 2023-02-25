@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from '../hooks/useMediaQuery';
+// import tim from "../assets/tim.png"
 
 const Link = ({ page, selectedPage, setSelectedPage }) => {
     const lowerCasePage = page.toLowerCase();
@@ -25,9 +26,13 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage}) => {
     const navbarBackground = isTopOfPage ? "" : "bg-red"
 
   return (
-    <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-6`}>
+    <nav className={`${navbarBackground} z-40 w-full fixed top-0 pt-2 pb-1`}>
         <div className="flex items-center justify-between mx-auto w-5/6">
-            <h4 className="font-playfair text-3xl font-bold">JE</h4>
+        <a href="#">
+        <img className='w-24' src="../assets/TimLight.png" alt='logo'/>
+        </a>
+
+            {/* <h4 className="font-playfair text-3xl font-bold">JE</h4> */}
 
             {/* DESKTOP NAV */}
             {isAboveSmallScreens ? (
@@ -67,8 +72,6 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage}) => {
                     <Link page="Skills" selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
 
                     <Link page="Projects" selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
-
-                    <Link page="Testimonials" selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
 
                     <Link page="Contact" selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
                     </div>
