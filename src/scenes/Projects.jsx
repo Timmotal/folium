@@ -107,15 +107,15 @@ const Projects = () => {
                         MODERN USER INTERFACE
                     </div>
                     {/* ROW 1 */}
-                    <Project title="Project 1" appTitle={"AI Image Generator"} webLink={"https://www.google.com/"} githubLink={"#"} />
-                    <Project title="Project 2" appTitle={"GrapheVilla: Share & discuss photographs"} webLink={"#"} githubLink={"#"} />
+                    <Project title="Project 1" appTitle={"AI Image Generator"} webLink={"https://timmortal.vercel.app/assets/project-1.png"} githubLink={"#"} />
+                    <Project title="Project 2" appTitle={"GrapheVilla: Share & discuss photographs"} webLink={"https://timmortal.vercel.app/assets/project-2.png"} githubLink={"#"} />
                     {/* ROW 2 */}
-                    <Project title="Project 3" appTitle={"E-commerce: with payment integration"} webLink={"#"} githubLink={"#"} />
-                    <Project title="Project 4" appTitle={"Moonverse"} webLink={"#"} githubLink={"#"} />
-                    <Project title="Project 5" appTitle={"Gym Membership"} webLink={"#"} githubLink={"#"} />
+                    <Project title="Project 3" appTitle={"E-commerce: with payment integration"} webLink={"https://timmortal.vercel.app/assets/project-3.png"} githubLink={"#"} />
+                    <Project title="Project 4" appTitle={"Moonverse"} webLink={"https://timmortal.vercel.app/assets/project-4.png"} githubLink={"#"} />
+                    <Project title="Project 5" appTitle={"Gym Membership"} webLink={"https://timmortal.vercel.app/assets/project-5.png"} githubLink={"#"} />
                     {/* ROW 3 */}
-                    <Project title="Project 6" appTitle={"React Music "} webLink={"#"} githubLink={"#"} />
-                    <Project title="Project 7" appTitle={"Chat"} webLink={"#"} githubLink={"#"} />
+                    <Project title="Project 6" appTitle={"React Music "} webLink={"https://timmortal.vercel.app/assets/project-6.png"} githubLink={"#"} />
+                    <Project title="Project 7" appTitle={"Chat"} webLink={"https://timmortal.vercel.app/assets/project-7.png"} githubLink={"#"} />
 
                     <div className="flex justify-center text-center items-center p-10 bg-blue max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold">
                         INTUITIVE & SIMPLE USER INTERFACE
