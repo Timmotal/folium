@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js,jsx}"], // we wanna make sure this is getting listened to as well
-  mode: 'jit', // allows for better modifications of tailwindcss and some extra features. (Just In Time)
+  content: ["./src/**/*.{html,js,jsx}"],
+  mode: 'jit', 
   theme: {
     extend: {
       colors: {
@@ -18,11 +18,6 @@ module.exports = {
       backgroundImage: (theme) => ({
         "gradient-rainbow": "linear-gradient(81.66deg, #00B5EE 7.21%, #FF45A4 45.05%, #FFBA00 78.07%)",
         "gradient-rainblue": "linear-gradient(90deg, #7AA5AC 14.53%, #a3552f 69.36%, #9f542e 117.73%)",
-        // #5C3C92 purple, #D72631
-        // #EF9D10F, #3B4D61, #6B7BBC
-        // #EFB5A3, #F57E7E, #315F72 peach, salmon & teal
-        // #316879, #F47A60, #7FE7DC, #CED7DB -- teal, coral, turquoise, grey
-        // from figma designs are usual
       }),
       fontFamily: {
         playfair: ["Playfair Display", "serif"],
