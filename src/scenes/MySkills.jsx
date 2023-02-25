@@ -40,13 +40,6 @@ const MySkills = () => {
         </motion.div>
 
         <div className="md:order-2 flex justify-center basis-3/5 z-10">
-          {/* {isAboveMediumScreens ? (
-                <div
-                    className="relative z-10 ml-20 before:absolute before:-top-10 before:-left-10  
-                                before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]"
-                >
-                    <img src="assets/skills-image.png" alt="skills" className="z-10" /> */}
-
           <div className="flex flex-row flex-wrap justify-center container-icon">
           <div class="box-icon">
               <i class="devicon devicon-react-original" aria-hidden="true"></i>
@@ -85,13 +78,6 @@ const MySkills = () => {
               <i class="devicon devicon-github-plain" aria-hidden="true"></i>
               <p>Github</p>
             </div>
-            
-            {/* <div class="box-icon">
-            <div class="container-img-i i-firebase">
-                <img src="./assets/icon-firebase.svg" alt="firebase icon" aria-hidden="true" />
-            </div>
-            <p>Firebase</p>
-          </div> */}
             <div class="box-icon">
               <i class="devicon devicon-sass-original" aria-hidden="true"></i>
               <p>SASS</p>
@@ -107,20 +93,8 @@ const MySkills = () => {
               ></i>
               <p>VS Code</p>
             </div>
-            {/* <div class="box-icon">
-            <div class="container-img-i i-responsive"> */}
-            {/* <!-- This icon by Freepik from "https://www.flaticon.com/" --> */}
-            
-            {/* </div>
-            <p>Responsive Websites</p>
-          </div> */}
           </div>
         </div>
-        {/*
-            ) : (
-                <img src="assets/skills-image.png" alt="skills" className="z-10" />
-            )} 
-        </div> */}
       </div>
 
       {/* SKILLS */}

@@ -24,7 +24,7 @@ function App() {
   
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll)
-  }, []) // we pass an empty array, so the useEffect runs when the component is loaded 
+  }, [])
   
 
   return (
@@ -35,7 +35,6 @@ function App() {
         isTopOfPage={isTopOfPage}
       />
       <div className="w-5/6 mx-auto ">
-        {/* md:h-full: fks up my design */}
         {isAboveMediumScreens && (
           <DotGroup
             selectedPage={selectedPage}
@@ -46,7 +45,6 @@ function App() {
       </div>
       <LineGradient />
       <div className="w-5/6 mx-auto ">
-        {/* md:h-full */}
         <MySkills />
       </div>
       <LineGradient />
@@ -55,7 +53,6 @@ function App() {
       </div>
       <LineGradient />
       <div className="w-5/6 mx-auto ">
-        {/* md:h-full */}
         <Contact />
       </div>
       <Footer />

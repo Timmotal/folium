@@ -51,7 +51,6 @@
           </div>
           <div class="box-icon">
             <div class="container-img-i i-responsive">
-              {/* <!-- This icon by Freepik from "https://www.flaticon.com/" --> */}
               <img src="./assets/icon-tablet-phone-and-browser.svg" alt="icon of tablet, phone and browser window." aria-hidden="true" />
             </div>
             <p>Responsive Websites</p>

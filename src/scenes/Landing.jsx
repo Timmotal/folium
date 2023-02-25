@@ -45,8 +45,6 @@ const Landing = ({ setSelectedPage }) => {
                 >
                     <p className="text-4xl font-playfair md:text-6xl z-10 text-center md:text-start ">
                         Timmortal says "Hola"
-                            
-                
                     </p>
 
                     <p className="mt-10 mb-7 text-sm text-center md:text-start">

@@ -1,13 +1,9 @@
 import React, { useState } from 'react';
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from '../hooks/useMediaQuery';
-// import tim from "../assets/tim.png"
 
 const Link = ({ page, selectedPage, setSelectedPage }) => {
     const lowerCasePage = page.toLowerCase();
-    // console.log(lowerCasePage + " lcs");
-    // console.log(selectedPage + " sp"); this IS UNDEFINED
-
     return (
         <AnchorLink
         className={` ${selectedPage === lowerCasePage ? " text-yellow " : ""} hover:text-yellow transition duration-500`}
@@ -31,9 +27,6 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage}) => {
         <a href="#">
         <img className='w-24' src="../assets/TimLight.png" alt='logo'/>
         </a>
-
-            {/* <h4 className="font-playfair text-3xl font-bold">JE</h4> */}
-
             {/* DESKTOP NAV */}
             {isAboveSmallScreens ? (
                 <div className="flex justify-between gap-16 font-opensans text-sm font-semibold">
