@@ -76,7 +76,7 @@ const Projects = () => {
                         MODERN USER INTERFACE
                     </div>
                     {/* ROW 1 */}
-                    <Project title="Project 1" appTitle={"AI Image Generator"} webLink={"https://timmortal.vercel.app/assets/project-1.png"} githubLink={"#"} />
+                    <Project title="Project 1" appTitle={"AI Image Generator MERN"} webLink={"https://timmortal.vercel.app/assets/project-1.png"} githubLink={"#"} />
                     <Project title="Project 2" appTitle={"GrapheVilla: Share & discuss photographs"} webLink={"https://timmortal.vercel.app/assets/project-2.png"} githubLink={"#"} />
                     {/* ROW 2 */}
                     <Project title="Project 3" appTitle={"E-commerce: with payment integration"} webLink={"https://timmortal.vercel.app/assets/project-3.png"} githubLink={"#"} />

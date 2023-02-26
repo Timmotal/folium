@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import LineGradient from "../components/LineGradient";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGlobe } from '@fortawesome/free-solid-svg-icons'
+
 
 
 const MySkills = () => {
@@ -182,7 +182,7 @@ const MySkills = () => {
           </div>
           <p className="mt-5">
           Enjoy bringing ideas to life in browsers.
-          Leveraging the powers of Javascript and other technologies to develop friendly & simple UI
+          Leveraging the powers of Javascript and other technologies to develop friendly & simple UI.
           </p>
         </motion.div>
       </div>
