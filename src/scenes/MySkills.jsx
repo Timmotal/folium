@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import LineGradient from "../components/LineGradient";
 import useMediaQuery from "../hooks/useMediaQuery";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 
